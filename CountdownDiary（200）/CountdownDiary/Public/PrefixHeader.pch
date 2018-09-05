@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  FishingTogether
+//
+//  Created by buyun-wutao on 2018/8/1.
+//  Copyright © 2018年 Tao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "Masonry.h"
+#import "Common.h"
+
+ 
+#import "SVProgressHUD.h"
+#import "SetUpViewController.h"
+#import "AddDiaryViewController.h"
+#import "MHDatePicker.h"
+
+#import "FMDatabase.h"
+#import "DataBase.h"
+#import <FMDB.h>
+#import "DayModel.h"
+#import "DayCell.h"
+
+#import "fankuiView.h"
+#import "KaifazheView.h"
+#endif /* PrefixHeader_pch */

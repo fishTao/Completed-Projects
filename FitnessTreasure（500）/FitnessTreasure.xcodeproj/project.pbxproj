@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3830695A210AAD3900EC9651 /* video.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38306959210AAD3900EC9651 /* video.plist */; };
+		3830695D210AADE400EC9651 /* DataModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 3830695C210AADE400EC9651 /* DataModels.m */; };
+		38306968210AB15D00EC9651 /* 1_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3830695F210AB15D00EC9651 /* 1_1.mp4 */; };
+		38306969210AB15D00EC9651 /* 1_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306960210AB15D00EC9651 /* 1_2.mp4 */; };
+		3830696A210AB15D00EC9651 /* 1_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306961210AB15D00EC9651 /* 1_3.mp4 */; };
+		3830696B210AB15D00EC9651 /* 1_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306962210AB15D00EC9651 /* 1_4.mp4 */; };
+		3830696C210AB15D00EC9651 /* 1_5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306963210AB15D00EC9651 /* 1_5.mp4 */; };
+		3830696D210AB15D00EC9651 /* 1_6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306964210AB15D00EC9651 /* 1_6.mp4 */; };
+		3830696E210AB15D00EC9651 /* 1_7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306965210AB15D00EC9651 /* 1_7.mp4 */; };
+		3830696F210AB15D00EC9651 /* 1_8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306966210AB15D00EC9651 /* 1_8.mp4 */; };
+		38306970210AB15D00EC9651 /* 1_9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38306967210AB15D00EC9651 /* 1_9.mp4 */; };
+		38306973210AC37300EC9651 /* zijihuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38306971210AC37300EC9651 /* zijihuaViewController.m */; };
+		38815C3D210AF8F3007FDE22 /* AddRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38815C3C210AF8F3007FDE22 /* AddRecordView.m */; };
+		38815C42210B1A5F007FDE22 /* fankuiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38815C3F210B1A5E007FDE22 /* fankuiView.m */; };
+		38815C43210B1A5F007FDE22 /* KaifazheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38815C41210B1A5E007FDE22 /* KaifazheView.m */; };
+		3883E9EB21096785002CFA1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883E9EA21096785002CFA1B /* AppDelegate.m */; };
+		3883E9EE21096785002CFA1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883E9ED21096785002CFA1B /* ViewController.m */; };
+		3883E9F121096785002CFA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3883E9EF21096785002CFA1B /* Main.storyboard */; };
+		3883E9F321096785002CFA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3883E9F221096785002CFA1B /* Assets.xcassets */; };
+		3883E9F621096785002CFA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3883E9F421096785002CFA1B /* LaunchScreen.storyboard */; };
+		3883E9F921096785002CFA1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883E9F821096785002CFA1B /* main.m */; };
+		3883EA0321096786002CFA1B /* FitnessTreasureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA0221096786002CFA1B /* FitnessTreasureTests.m */; };
+		3883EA0E21096786002CFA1B /* FitnessTreasureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA0D21096786002CFA1B /* FitnessTreasureUITests.m */; };
+		3883EA442109B8AF002CFA1B /* PlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA432109B8AF002CFA1B /* PlanViewController.m */; };
+		3883EA4A2109B8DA002CFA1B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA492109B8DA002CFA1B /* NewsViewController.m */; };
+		3883EA4D2109B8EA002CFA1B /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA4C2109B8EA002CFA1B /* RecordViewController.m */; };
+		3883EA502109C3C2002CFA1B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA4F2109C3C2002CFA1B /* MenuViewController.m */; };
+		3883EA592109CAC1002CFA1B /* MuscleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA572109CAC1002CFA1B /* MuscleViewController.m */; };
+		3883EA5A2109CAC1002CFA1B /* MuscleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3883EA582109CAC1002CFA1B /* MuscleViewController.xib */; };
+		3883EA5D2109D099002CFA1B /* ExerciseDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3883EA5C2109D099002CFA1B /* ExerciseDetails.m */; };
+		E3EBC7B289AF20605BC1EC43 /* libPods-FitnessTreasure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140F66EADA5A6FF9957FA6A5 /* libPods-FitnessTreasure.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3883E9FF21096786002CFA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3883E9DE21096785002CFA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3883E9E521096785002CFA1B;
+			remoteInfo = FitnessTreasure;
+		};
+		3883EA0A21096786002CFA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3883E9DE21096785002CFA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3883E9E521096785002CFA1B;
+			remoteInfo = FitnessTreasure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140F66EADA5A6FF9957FA6A5 /* libPods-FitnessTreasure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitnessTreasure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38306959210AAD3900EC9651 /* video.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = video.plist; sourceTree = "<group>"; };
+		3830695B210AADE400EC9651 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		3830695C210AADE400EC9651 /* DataModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModels.m; sourceTree = "<group>"; };
+		3830695F210AB15D00EC9651 /* 1_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_1.mp4; sourceTree = "<group>"; };
+		38306960210AB15D00EC9651 /* 1_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_2.mp4; sourceTree = "<group>"; };
+		38306961210AB15D00EC9651 /* 1_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_3.mp4; sourceTree = "<group>"; };
+		38306962210AB15D00EC9651 /* 1_4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_4.mp4; sourceTree = "<group>"; };
+		38306963210AB15D00EC9651 /* 1_5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_5.mp4; sourceTree = "<group>"; };
+		38306964210AB15D00EC9651 /* 1_6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_6.mp4; sourceTree = "<group>"; };
+		38306965210AB15D00EC9651 /* 1_7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_7.mp4; sourceTree = "<group>"; };
+		38306966210AB15D00EC9651 /* 1_8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_8.mp4; sourceTree = "<group>"; };
+		38306967210AB15D00EC9651 /* 1_9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_9.mp4; sourceTree = "<group>"; };
+		38306971210AC37300EC9651 /* zijihuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zijihuaViewController.m; sourceTree = "<group>"; };
+		38306972210AC37300EC9651 /* zijihuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zijihuaViewController.h; sourceTree = "<group>"; };
+		38815C3B210AF8F3007FDE22 /* AddRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddRecordView.h; sourceTree = "<group>"; };
+		38815C3C210AF8F3007FDE22 /* AddRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddRecordView.m; sourceTree = "<group>"; };
+		38815C3E210B1A5E007FDE22 /* KaifazheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaifazheView.h; sourceTree = "<group>"; };
+		38815C3F210B1A5E007FDE22 /* fankuiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fankuiView.m; sourceTree = "<group>"; };
+		38815C40210B1A5E007FDE22 /* fankuiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fankuiView.h; sourceTree = "<group>"; };
+		38815C41210B1A5E007FDE22 /* KaifazheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaifazheView.m; sourceTree = "<group>"; };
+		3883E9E621096785002CFA1B /* FitnessTreasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessTreasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3883E9E921096785002CFA1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3883E9EA21096785002CFA1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3883E9EC21096785002CFA1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3883E9ED21096785002CFA1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3883E9F021096785002CFA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3883E9F221096785002CFA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3883E9F521096785002CFA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3883E9F721096785002CFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3883E9F821096785002CFA1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3883E9FE21096786002CFA1B /* FitnessTreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTreasureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3883EA0221096786002CFA1B /* FitnessTreasureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessTreasureTests.m; sourceTree = "<group>"; };
+		3883EA0421096786002CFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3883EA0921096786002CFA1B /* FitnessTreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTreasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3883EA0D21096786002CFA1B /* FitnessTreasureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessTreasureUITests.m; sourceTree = "<group>"; };
+		3883EA0F21096786002CFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3883EA1C21098712002CFA1B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3883EA1D21098781002CFA1B /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		3883EA422109B8AF002CFA1B /* PlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanViewController.h; sourceTree = "<group>"; };
+		3883EA432109B8AF002CFA1B /* PlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanViewController.m; sourceTree = "<group>"; };
+		3883EA482109B8DA002CFA1B /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		3883EA492109B8DA002CFA1B /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		3883EA4B2109B8EA002CFA1B /* RecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		3883EA4C2109B8EA002CFA1B /* RecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		3883EA4E2109C3C2002CFA1B /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3883EA4F2109C3C2002CFA1B /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3883EA562109CAC1002CFA1B /* MuscleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuscleViewController.h; sourceTree = "<group>"; };
+		3883EA572109CAC1002CFA1B /* MuscleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuscleViewController.m; sourceTree = "<group>"; };
+		3883EA582109CAC1002CFA1B /* MuscleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MuscleViewController.xib; sourceTree = "<group>"; };
+		3883EA5B2109D099002CFA1B /* ExerciseDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExerciseDetails.h; sourceTree = "<group>"; };
+		3883EA5C2109D099002CFA1B /* ExerciseDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetails.m; sourceTree = "<group>"; };
+		490B0A8ACAF9A25C1FFF6E5C /* Pods-FitnessTreasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessTreasure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessTreasure/Pods-FitnessTreasure.debug.xcconfig"; sourceTree = "<group>"; };
+		9F44134E30C8E0066FD329DA /* Pods-FitnessTreasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessTreasure.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessTreasure/Pods-FitnessTreasure.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3883E9E321096785002CFA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EBC7B289AF20605BC1EC43 /* libPods-FitnessTreasure.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3883E9FB21096786002CFA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3883EA0621096786002CFA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222EA0D3EA458164D6F1DF4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				490B0A8ACAF9A25C1FFF6E5C /* Pods-FitnessTreasure.debug.xcconfig */,
+				9F44134E30C8E0066FD329DA /* Pods-FitnessTreasure.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3830695E210AB15D00EC9651 /* MP4 */ = {
+			isa = PBXGroup;
+			children = (
+				3830695F210AB15D00EC9651 /* 1_1.mp4 */,
+				38306960210AB15D00EC9651 /* 1_2.mp4 */,
+				38306961210AB15D00EC9651 /* 1_3.mp4 */,
+				38306962210AB15D00EC9651 /* 1_4.mp4 */,
+				38306963210AB15D00EC9651 /* 1_5.mp4 */,
+				38306964210AB15D00EC9651 /* 1_6.mp4 */,
+				38306965210AB15D00EC9651 /* 1_7.mp4 */,
+				38306966210AB15D00EC9651 /* 1_8.mp4 */,
+				38306967210AB15D00EC9651 /* 1_9.mp4 */,
+			);
+			path = MP4;
+			sourceTree = "<group>";
+		};
+		3883E9DD21096785002CFA1B = {
+			isa = PBXGroup;
+			children = (
+				3883E9E821096785002CFA1B /* FitnessTreasure */,
+				3883EA0121096786002CFA1B /* FitnessTreasureTests */,
+				3883EA0C21096786002CFA1B /* FitnessTreasureUITests */,
+				3883E9E721096785002CFA1B /* Products */,
+				222EA0D3EA458164D6F1DF4D /* Pods */,
+				E935ADD14A74228196208942 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3883E9E721096785002CFA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3883E9E621096785002CFA1B /* FitnessTreasure.app */,
+				3883E9FE21096786002CFA1B /* FitnessTreasureTests.xctest */,
+				3883EA0921096786002CFA1B /* FitnessTreasureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3883E9E821096785002CFA1B /* FitnessTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA1E21098D78002CFA1B /* Resources */,
+				3883EA1B210986D0002CFA1B /* Public */,
+				3883EA3E2109B876002CFA1B /* Home */,
+				3883EA522109CA71002CFA1B /* video */,
+				3883EA532109CA7E002CFA1B /* Plan */,
+				3883EA542109CA84002CFA1B /* Record */,
+				3883EA552109CA97002CFA1B /* News */,
+				3883E9EF21096785002CFA1B /* Main.storyboard */,
+				3883E9F221096785002CFA1B /* Assets.xcassets */,
+				3883E9F421096785002CFA1B /* LaunchScreen.storyboard */,
+				3883E9F721096785002CFA1B /* Info.plist */,
+				3883E9F821096785002CFA1B /* main.m */,
+			);
+			path = FitnessTreasure;
+			sourceTree = "<group>";
+		};
+		3883EA0121096786002CFA1B /* FitnessTreasureTests */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA0221096786002CFA1B /* FitnessTreasureTests.m */,
+				3883EA0421096786002CFA1B /* Info.plist */,
+			);
+			path = FitnessTreasureTests;
+			sourceTree = "<group>";
+		};
+		3883EA0C21096786002CFA1B /* FitnessTreasureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA0D21096786002CFA1B /* FitnessTreasureUITests.m */,
+				3883EA0F21096786002CFA1B /* Info.plist */,
+			);
+			path = FitnessTreasureUITests;
+			sourceTree = "<group>";
+		};
+		3883EA1B210986D0002CFA1B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				3883E9E921096785002CFA1B /* AppDelegate.h */,
+				3883E9EA21096785002CFA1B /* AppDelegate.m */,
+				3883EA1D21098781002CFA1B /* Common.h */,
+				3883EA1C21098712002CFA1B /* PrefixHeader.pch */,
+				3830695B210AADE400EC9651 /* DataModels.h */,
+				3830695C210AADE400EC9651 /* DataModels.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		3883EA1E21098D78002CFA1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38306959210AAD3900EC9651 /* video.plist */,
+				3830695E210AB15D00EC9651 /* MP4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3883EA3E2109B876002CFA1B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3883E9EC21096785002CFA1B /* ViewController.h */,
+				3883E9ED21096785002CFA1B /* ViewController.m */,
+				3883EA4E2109C3C2002CFA1B /* MenuViewController.h */,
+				3883EA4F2109C3C2002CFA1B /* MenuViewController.m */,
+				38815C3E210B1A5E007FDE22 /* KaifazheView.h */,
+				38815C41210B1A5E007FDE22 /* KaifazheView.m */,
+				38815C40210B1A5E007FDE22 /* fankuiView.h */,
+				38815C3F210B1A5E007FDE22 /* fankuiView.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3883EA522109CA71002CFA1B /* video */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA562109CAC1002CFA1B /* MuscleViewController.h */,
+				3883EA572109CAC1002CFA1B /* MuscleViewController.m */,
+				3883EA582109CAC1002CFA1B /* MuscleViewController.xib */,
+				3883EA5B2109D099002CFA1B /* ExerciseDetails.h */,
+				3883EA5C2109D099002CFA1B /* ExerciseDetails.m */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		3883EA532109CA7E002CFA1B /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA422109B8AF002CFA1B /* PlanViewController.h */,
+				3883EA432109B8AF002CFA1B /* PlanViewController.m */,
+				38306972210AC37300EC9651 /* zijihuaViewController.h */,
+				38306971210AC37300EC9651 /* zijihuaViewController.m */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		3883EA542109CA84002CFA1B /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA4B2109B8EA002CFA1B /* RecordViewController.h */,
+				3883EA4C2109B8EA002CFA1B /* RecordViewController.m */,
+				38815C3B210AF8F3007FDE22 /* AddRecordView.h */,
+				38815C3C210AF8F3007FDE22 /* AddRecordView.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		3883EA552109CA97002CFA1B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3883EA482109B8DA002CFA1B /* NewsViewController.h */,
+				3883EA492109B8DA002CFA1B /* NewsViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		E935ADD14A74228196208942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				140F66EADA5A6FF9957FA6A5 /* libPods-FitnessTreasure.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3883E9E521096785002CFA1B /* FitnessTreasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3883EA1221096786002CFA1B /* Build configuration list for PBXNativeTarget "FitnessTreasure" */;
+			buildPhases = (
+				C150D2FFC9FFFAAF66777EDE /* [CP] Check Pods Manifest.lock */,
+				3883E9E221096785002CFA1B /* Sources */,
+				3883E9E321096785002CFA1B /* Frameworks */,
+				3883E9E421096785002CFA1B /* Resources */,
+				9A3974A70BF1743029F9B1C0 /* [CP] Embed Pods Frameworks */,
+				741E5BB710135D602723B831 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessTreasure;
+			productName = FitnessTreasure;
+			productReference = 3883E9E621096785002CFA1B /* FitnessTreasure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3883E9FD21096786002CFA1B /* FitnessTreasureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3883EA1521096786002CFA1B /* Build configuration list for PBXNativeTarget "FitnessTreasureTests" */;
+			buildPhases = (
+				3883E9FA21096786002CFA1B /* Sources */,
+				3883E9FB21096786002CFA1B /* Frameworks */,
+				3883E9FC21096786002CFA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3883EA0021096786002CFA1B /* PBXTargetDependency */,
+			);
+			name = FitnessTreasureTests;
+			productName = FitnessTreasureTests;
+			productReference = 3883E9FE21096786002CFA1B /* FitnessTreasureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3883EA0821096786002CFA1B /* FitnessTreasureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3883EA1821096786002CFA1B /* Build configuration list for PBXNativeTarget "FitnessTreasureUITests" */;
+			buildPhases = (
+				3883EA0521096786002CFA1B /* Sources */,
+				3883EA0621096786002CFA1B /* Frameworks */,
+				3883EA0721096786002CFA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3883EA0B21096786002CFA1B /* PBXTargetDependency */,
+			);
+			name = FitnessTreasureUITests;
+			productName = FitnessTreasureUITests;
+			productReference = 3883EA0921096786002CFA1B /* FitnessTreasureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3883E9DE21096785002CFA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tao;
+				TargetAttributes = {
+					3883E9E521096785002CFA1B = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+					};
+					3883E9FD21096786002CFA1B = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3883E9E521096785002CFA1B;
+					};
+					3883EA0821096786002CFA1B = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3883E9E521096785002CFA1B;
+					};
+				};
+			};
+			buildConfigurationList = 3883E9E121096785002CFA1B /* Build configuration list for PBXProject "FitnessTreasure" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3883E9DD21096785002CFA1B;
+			productRefGroup = 3883E9E721096785002CFA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3883E9E521096785002CFA1B /* FitnessTreasure */,
+				3883E9FD21096786002CFA1B /* FitnessTreasureTests */,
+				3883EA0821096786002CFA1B /* FitnessTreasureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3883E9E421096785002CFA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3830696B210AB15D00EC9651 /* 1_4.mp4 in Resources */,
+				3830696C210AB15D00EC9651 /* 1_5.mp4 in Resources */,
+				3883E9F621096785002CFA1B /* LaunchScreen.storyboard in Resources */,
+				38306970210AB15D00EC9651 /* 1_9.mp4 in Resources */,
+				3830696A210AB15D00EC9651 /* 1_3.mp4 in Resources */,
+				3883EA5A2109CAC1002CFA1B /* MuscleViewController.xib in Resources */,
+				3883E9F321096785002CFA1B /* Assets.xcassets in Resources */,
+				38306969210AB15D00EC9651 /* 1_2.mp4 in Resources */,
+				38306968210AB15D00EC9651 /* 1_1.mp4 in Resources */,
+				3830696D210AB15D00EC9651 /* 1_6.mp4 in Resources */,
+				3830696E210AB15D00EC9651 /* 1_7.mp4 in Resources */,
+				3830696F210AB15D00EC9651 /* 1_8.mp4 in Resources */,
+				3883E9F121096785002CFA1B /* Main.storyboard in Resources */,
+				3830695A210AAD3900EC9651 /* video.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3883E9FC21096786002CFA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3883EA0721096786002CFA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		741E5BB710135D602723B831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitnessTreasure/Pods-FitnessTreasure-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitnessTreasure/Pods-FitnessTreasure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3974A70BF1743029F9B1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitnessTreasure/Pods-FitnessTreasure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C150D2FFC9FFFAAF66777EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessTreasure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3883E9E221096785002CFA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3883E9EE21096785002CFA1B /* ViewController.m in Sources */,
+				3883E9F921096785002CFA1B /* main.m in Sources */,
+				38815C42210B1A5F007FDE22 /* fankuiView.m in Sources */,
+				3883EA5D2109D099002CFA1B /* ExerciseDetails.m in Sources */,
+				38306973210AC37300EC9651 /* zijihuaViewController.m in Sources */,
+				3883EA592109CAC1002CFA1B /* MuscleViewController.m in Sources */,
+				38815C3D210AF8F3007FDE22 /* AddRecordView.m in Sources */,
+				3883EA502109C3C2002CFA1B /* MenuViewController.m in Sources */,
+				3883EA442109B8AF002CFA1B /* PlanViewController.m in Sources */,
+				3830695D210AADE400EC9651 /* DataModels.m in Sources */,
+				3883E9EB21096785002CFA1B /* AppDelegate.m in Sources */,
+				3883EA4D2109B8EA002CFA1B /* RecordViewController.m in Sources */,
+				3883EA4A2109B8DA002CFA1B /* NewsViewController.m in Sources */,
+				38815C43210B1A5F007FDE22 /* KaifazheView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3883E9FA21096786002CFA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3883EA0321096786002CFA1B /* FitnessTreasureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3883EA0521096786002CFA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3883EA0E21096786002CFA1B /* FitnessTreasureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3883EA0021096786002CFA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3883E9E521096785002CFA1B /* FitnessTreasure */;
+			targetProxy = 3883E9FF21096786002CFA1B /* PBXContainerItemProxy */;
+		};
+		3883EA0B21096786002CFA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3883E9E521096785002CFA1B /* FitnessTreasure */;
+			targetProxy = 3883EA0A21096786002CFA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3883E9EF21096785002CFA1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3883E9F021096785002CFA1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3883E9F421096785002CFA1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3883E9F521096785002CFA1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3883EA1021096786002CFA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3883EA1121096786002CFA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3883EA1321096786002CFA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490B0A8ACAF9A25C1FFF6E5C /* Pods-FitnessTreasure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT95YY3RQ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wutao/Desktop/wutao/个人/已结束/FitnessTreasure/FitnessTreasure/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = FitnessTreasure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.FitnessTreasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3883EA1421096786002CFA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F44134E30C8E0066FD329DA /* Pods-FitnessTreasure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT95YY3RQ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wutao/Desktop/wutao/个人/已结束/FitnessTreasure/FitnessTreasure/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = FitnessTreasure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.FitnessTreasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3883EA1621096786002CFA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT95YY3RQ9;
+				INFOPLIST_FILE = FitnessTreasureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao..FitnessTreasureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessTreasure.app/FitnessTreasure";
+			};
+			name = Debug;
+		};
+		3883EA1721096786002CFA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT95YY3RQ9;
+				INFOPLIST_FILE = FitnessTreasureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao..FitnessTreasureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessTreasure.app/FitnessTreasure";
+			};
+			name = Release;
+		};
+		3883EA1921096786002CFA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT95YY3RQ9;
+				INFOPLIST_FILE = FitnessTreasureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao..FitnessTreasureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessTreasure;
+			};
+			name = Debug;
+		};
+		3883EA1A21096786002CFA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT95YY3RQ9;
+				INFOPLIST_FILE = FitnessTreasureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao..FitnessTreasureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessTreasure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3883E9E121096785002CFA1B /* Build configuration list for PBXProject "FitnessTreasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3883EA1021096786002CFA1B /* Debug */,
+				3883EA1121096786002CFA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3883EA1221096786002CFA1B /* Build configuration list for PBXNativeTarget "FitnessTreasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3883EA1321096786002CFA1B /* Debug */,
+				3883EA1421096786002CFA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3883EA1521096786002CFA1B /* Build configuration list for PBXNativeTarget "FitnessTreasureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3883EA1621096786002CFA1B /* Debug */,
+				3883EA1721096786002CFA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3883EA1821096786002CFA1B /* Build configuration list for PBXNativeTarget "FitnessTreasureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3883EA1921096786002CFA1B /* Debug */,
+				3883EA1A21096786002CFA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3883E9DE21096785002CFA1B /* Project object */;
+}

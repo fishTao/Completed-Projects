@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qFV-Kz-o8X"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZC9-xz-gI8"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time1" translatesAutoresizingMaskIntoConstraints="NO" id="Ldh-IQ-m4T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    Your time management machine     " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAc-ki-HPS">
+                                <rect key="frame" x="21" y="422" width="333.5" height="45"/>
+                                <color key="backgroundColor" red="0.1572100818157196" green="0.16746285557746887" blue="0.21014443039894104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="IcS-E3-AfR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HAc-ki-HPS" firstAttribute="centerX" secondItem="Ldh-IQ-m4T" secondAttribute="centerX" id="39F-vE-rOr"/>
+                            <constraint firstItem="Ldh-IQ-m4T" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="EpV-DJ-D1Q"/>
+                            <constraint firstItem="Ldh-IQ-m4T" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Qah-Wn-OrC"/>
+                            <constraint firstItem="Ldh-IQ-m4T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VNB-ZG-OZx"/>
+                            <constraint firstItem="ZC9-xz-gI8" firstAttribute="top" secondItem="HAc-ki-HPS" secondAttribute="bottom" constant="200" id="flA-yq-yUp"/>
+                            <constraint firstItem="Ldh-IQ-m4T" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hF1-C6-Bee"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="time1" width="702" height="993"/>
+    </resources>
+</document>

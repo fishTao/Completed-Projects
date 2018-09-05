@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Twenty minutes three to five times a week</string>
+		<key>string</key>
+		<string>The triceps are behind your upper arm, from your shoulder to your elbow. They make up almost two-thirds of the upper arm.</string>
+		<key>image</key>
+		<string>肌肉_1.jpg</string>
+		<key>tool</key>
+		<string>Barbells, dumbbells, push-ups</string>
+		<key>method</key>
+		<string>Bending arm flexion and extension, mainly strengthen the isolated training movement of triceps brachium, action: stand with two knees slightly bent, naturally lean over, hold dumbbells, the upper arm close to the side of the body, bend the elbow 90 degrees. Inhale, straighten your arms, and exhale.</string>
+		<key>mp4</key>
+		<string>1_1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Twenty minutes three to five times a week</string>
+		<key>string</key>
+		<string>The biceps humerus is located in the front of the upper arm and the whole muscle is spindle shaped. The biceps humerus has two heads. Long head from shoulder blade, short head from shoulder blade beak long beak</string>
+		<key>image</key>
+		<string>肌肉_2.jpg</string>
+		<key>tool</key>
+		<string>Horizontal bar, dumbbells, push ups</string>
+		<key>method</key>
+		<string>When exercising the biceps, the basic training you need is barbell training, and barbell arm bending is the way to train the biceps. Second, barbell bends and push-ups also work.</string>
+		<key>mp4</key>
+		<string>1_2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Once or twice a week for ten minutes</string>
+		<key>string</key>
+		<string>The dorsal muscle is divided into the superficial dorsal muscle, the dorsal deep muscle and the dorsal fascia. The dorsal superficial muscles are divided into two layers and the dorsal deep muscles are arranged on both sides of the spine.</string>
+		<key>image</key>
+		<string>肌肉_3.jpg</string>
+		<key>tool</key>
+		<string>Horizontal bar, octagon frame, Smith machine</string>
+		<key>method</key>
+		<string>Exercise your back from top to bottom. For example, pull your straight leg hard: stand upright with your feet shoulder-width apart, your legs straight, your abdomen tightened, your back straight, your head lifted, your hands clenched the dumbbells, your palms facing your body, and your arms slightly bent beneath your body</string>
+		<key>mp4</key>
+		<string>1_3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Five kilometers a day</string>
+		<key>string</key>
+		<string>Calf muscle group is the most important calf triceps. It consists of the gastrocnemius muscle and the soleus muscle. The soleus muscle is deep in the gastrocnemius muscle.</string>
+		<key>image</key>
+		<string>肌肉_3.jpg</string>
+		<key>tool</key>
+		<string>Running, jumping rope</string>
+		<key>method</key>
+		<string>Heel lifts: there are three ways to stand, sit, and ride. The heel lift is mainly accomplished by contraction of the gastrocnemius muscle. When lifting the heel, should feel the calf muscle group full contraction, after a little pause, then slow down to the minimum, so that the calf muscle is fully extended.</string>
+		<key>mp4</key>
+		<string>1_4</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Twenty minutes three to five times a week</string>
+		<key>string</key>
+		<string>The shoulder is mainly composed of triceps and is triangular. The upper part of the humerus is covered by the deltoid muscle, which makes the shoulder joint round.</string>
+		<key>image</key>
+		<string>肌肉_5.jpg</string>
+		<key>tool</key>
+		<string>Dumbbells, barbells, push ups, horizontal bars</string>
+		<key>method</key>
+		<string>Stand up naturally, hold the dumbbells or barbells in both hands, put your arms close to your body, put them in front of you, hold them for a while, and then recover. Lift the anterior midbeam of the deltoid muscle. Hold the dumbbells in both hands and keep your arms close to your body. Raise your arms horizontally on one side of your body or rotate them horizontally.</string>
+		<key>mp4</key>
+		<string>1_5</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Twenty minutes three to five times a week</string>
+		<key>string</key>
+		<string>It consists of the left and right parts, also known as the pectoralis major muscle. The pectoral muscle can also be divided into the pectoral upper limb muscle and the pectoral intrinsic muscle.</string>
+		<key>image</key>
+		<string>肌肉_6.jpg</string>
+		<key>tool</key>
+		<string>Push ups and chest expansion.</string>
+		<key>method</key>
+		<string>Push-ups. Quantity: do 10 to 15 in each group, 3 to 8 in each group, and rest for 1 minute between each group. Five push ups with different difficulty levels: top oblique push ups, standard push ups, one-handed push ups. More difficult push ups: focus on push ups, leveraged push ups, etc.</string>
+		<key>mp4</key>
+		<string>1_6</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Twenty minutes three to five times a week</string>
+		<key>string</key>
+		<string>The forearm muscle is located around the ulnar and radial bones and is mostly long prismatic. It can be divided into anterior and posterior groups.</string>
+		<key>image</key>
+		<string>肌肉_7.jpg</string>
+		<key>tool</key>
+		<string>Barbells, dumbbells</string>
+		<key>method</key>
+		<string>Hold the barbell in both hands and squat down. Place your forearm on your lap and extend your wrist forward over your knee. Hold your hands on the bar. Action process: the forearm is flat against the thigh, and the wrist is bent upward and inward as far as possible. Relax the forearm muscles and let the wrist fall forward.</string>
+		<key>mp4</key>
+		<string>1_7</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Twenty minutes three to five times a week</string>
+		<key>string</key>
+		<string>These include the rectus abdominis, the external oblique, the internal oblique and the transverse abdominis.</string>
+		<key>image</key>
+		<string>肌肉_8.jpg</string>
+		<key>tool</key>
+		<string>Lie on your back roll belly</string>
+		<key>method</key>
+		<string>Exercise abdominal muscle has too many method, need to notice is: reduce abdomen preliminarily, make abdominal muscle, carve abdominal muscle. Specific have: side roll abdomen, supine lift leg roll abdomen, supine lift leg, supine straight leg two ends rise, twist roll abdomen, parallel bars lift leg, suspension lift leg.</string>
+		<key>mp4</key>
+		<string>1_8</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Five kilometers a day</string>
+		<key>string</key>
+		<string>The thigh muscle is located around the femur and can be divided into anterior group, posterior group and medial group. The thigh muscles include the quadriceps in the front and the biceps in the back. Adductor and abductor muscles on both sides.</string>
+		<key>image</key>
+		<string>肌肉_9.jpg</string>
+		<key>tool</key>
+		<string>Running, jumping rope</string>
+		<key>method</key>
+		<string>Sitting position horizontal kick legs, slanting weight lifting legs, sitting posture leg flexion and extension, supine leg bending lift. Barbell squat: it is a traditional squat, compared to the front of the neck barbell squat, the back of the neck squat to bear more weight, safer; The quadriceps can be developed as well as the gluteus.</string>
+		<key>mp4</key>
+		<string>1_9</string>
+	</dict>
+</array>
+</plist>

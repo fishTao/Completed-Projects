@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MuscleViewController">
+            <connections>
+                <outlet property="btn1" destination="1lS-Qo-4Km" id="3bX-nw-Jlp"/>
+                <outlet property="btn2" destination="7Vg-CV-cH3" id="bh0-RE-wac"/>
+                <outlet property="btn3" destination="czq-Ql-V9D" id="6EB-d0-WwH"/>
+                <outlet property="btn4" destination="vzL-XT-Maq" id="MJ4-dv-SlB"/>
+                <outlet property="btn5" destination="BwI-r8-1LL" id="67X-BV-qF5"/>
+                <outlet property="btn6" destination="zcq-YL-3b8" id="uJm-Te-kAx"/>
+                <outlet property="btn7" destination="Bng-os-AYA" id="OXr-SH-ra0"/>
+                <outlet property="btn8" destination="qjj-0w-0Oc" id="mPX-GK-idU"/>
+                <outlet property="btn9" destination="Fkm-0E-fZ7" id="jco-b8-AXY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jr" translatesAutoresizingMaskIntoConstraints="NO" id="KII-6Z-w4S">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lS-Qo-4Km">
+                    <rect key="frame" x="15" y="45" width="80" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="3Fh-20-A5H"/>
+                        <constraint firstAttribute="height" constant="50" id="PJ1-eG-YKG"/>
+                    </constraints>
+                    <state key="normal" image="肱三头肌"/>
+                    <connections>
+                        <action selector="img1:" destination="-1" eventType="touchUpInside" id="oux-ut-Sah"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcq-YL-3b8">
+                    <rect key="frame" x="280" y="312" width="80" height="50"/>
+                    <state key="normal" image="胸肌"/>
+                    <connections>
+                        <action selector="img6:" destination="-1" eventType="touchUpInside" id="lS7-vF-pyZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="107" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bng-os-AYA">
+                    <rect key="frame" x="280" y="407" width="80" height="50"/>
+                    <state key="normal" image="前臂"/>
+                    <connections>
+                        <action selector="img7:" destination="-1" eventType="touchUpInside" id="aJ0-CG-Kre"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-CV-cH3">
+                    <rect key="frame" x="15" y="407" width="80" height="50"/>
+                    <state key="normal" image="肱二头肌"/>
+                    <connections>
+                        <action selector="img2:" destination="-1" eventType="touchUpInside" id="wVm-5c-c8k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="108" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjj-0w-0Oc">
+                    <rect key="frame" x="280" y="502" width="80" height="50"/>
+                    <state key="normal" image="腰腹"/>
+                    <connections>
+                        <action selector="img8:" destination="-1" eventType="touchUpInside" id="CuQ-Us-J02"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czq-Ql-V9D">
+                    <rect key="frame" x="15" y="502" width="80" height="50"/>
+                    <state key="normal" image="背部"/>
+                    <connections>
+                        <action selector="img3:" destination="-1" eventType="touchUpInside" id="aqj-qc-rwf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="109" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkm-0E-fZ7">
+                    <rect key="frame" x="280" y="597" width="80" height="50"/>
+                    <state key="normal" image="大腿"/>
+                    <connections>
+                        <action selector="img9:" destination="-1" eventType="touchUpInside" id="1Zz-eg-Fkt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzL-XT-Maq">
+                    <rect key="frame" x="15" y="597" width="80" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7Uc-TK-iGy"/>
+                        <constraint firstAttribute="width" constant="80" id="ulP-vB-EvQ"/>
+                    </constraints>
+                    <state key="normal" image="小腿"/>
+                    <connections>
+                        <action selector="img4:" destination="-1" eventType="touchUpInside" id="R4e-fp-Hek"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwI-r8-1LL">
+                    <rect key="frame" x="280" y="45" width="80" height="50"/>
+                    <state key="normal" image="肩部"/>
+                    <connections>
+                        <action selector="img5:" destination="-1" eventType="touchUpInside" id="ixr-xm-8gM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1lS-Qo-4Km" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="37A-sL-eo2"/>
+                <constraint firstItem="qjj-0w-0Oc" firstAttribute="width" secondItem="Fkm-0E-fZ7" secondAttribute="width" id="3zc-Ix-rQS"/>
+                <constraint firstItem="BwI-r8-1LL" firstAttribute="centerX" secondItem="zcq-YL-3b8" secondAttribute="centerX" id="5BC-St-flJ"/>
+                <constraint firstItem="Bng-os-AYA" firstAttribute="height" secondItem="qjj-0w-0Oc" secondAttribute="height" id="5Fo-gB-TrF"/>
+                <constraint firstItem="KII-6Z-w4S" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="9RI-aC-InT"/>
+                <constraint firstItem="czq-Ql-V9D" firstAttribute="top" secondItem="7Vg-CV-cH3" secondAttribute="bottom" constant="45" id="AOa-IV-i3g"/>
+                <constraint firstItem="BwI-r8-1LL" firstAttribute="centerY" secondItem="1lS-Qo-4Km" secondAttribute="centerY" id="AT8-am-0dD"/>
+                <constraint firstItem="qjj-0w-0Oc" firstAttribute="centerY" secondItem="czq-Ql-V9D" secondAttribute="centerY" id="Aj8-3q-lEf"/>
+                <constraint firstItem="czq-Ql-V9D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="DoA-eR-Fzs"/>
+                <constraint firstItem="czq-Ql-V9D" firstAttribute="width" secondItem="vzL-XT-Maq" secondAttribute="width" id="Ek0-WG-yyV"/>
+                <constraint firstItem="Bng-os-AYA" firstAttribute="centerY" secondItem="7Vg-CV-cH3" secondAttribute="centerY" id="GqS-RA-EgV"/>
+                <constraint firstItem="zcq-YL-3b8" firstAttribute="width" secondItem="Bng-os-AYA" secondAttribute="width" id="IiW-GU-uhY"/>
+                <constraint firstItem="7Vg-CV-cH3" firstAttribute="height" secondItem="czq-Ql-V9D" secondAttribute="height" id="JJN-vf-hu2"/>
+                <constraint firstItem="Bng-os-AYA" firstAttribute="centerX" secondItem="qjj-0w-0Oc" secondAttribute="centerX" id="Leb-0l-c1c"/>
+                <constraint firstItem="1lS-Qo-4Km" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="PDl-c2-ck5"/>
+                <constraint firstItem="KII-6Z-w4S" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="R6L-oV-bnh"/>
+                <constraint firstItem="Fkm-0E-fZ7" firstAttribute="width" secondItem="vzL-XT-Maq" secondAttribute="width" id="T6K-1n-QZa"/>
+                <constraint firstItem="zcq-YL-3b8" firstAttribute="centerX" secondItem="Bng-os-AYA" secondAttribute="centerX" id="WY3-1a-ceh"/>
+                <constraint firstItem="7Vg-CV-cH3" firstAttribute="width" secondItem="czq-Ql-V9D" secondAttribute="width" id="Wa2-iC-LWE"/>
+                <constraint firstAttribute="bottom" secondItem="vzL-XT-Maq" secondAttribute="bottom" constant="20" id="XKB-dc-ith"/>
+                <constraint firstItem="BwI-r8-1LL" firstAttribute="height" secondItem="1lS-Qo-4Km" secondAttribute="height" id="Yf0-SA-hvS"/>
+                <constraint firstAttribute="bottom" secondItem="Fkm-0E-fZ7" secondAttribute="bottom" constant="20" id="ZgA-qg-0s4"/>
+                <constraint firstItem="Bng-os-AYA" firstAttribute="top" secondItem="zcq-YL-3b8" secondAttribute="bottom" constant="45" id="a7C-de-sq2"/>
+                <constraint firstItem="czq-Ql-V9D" firstAttribute="centerX" secondItem="vzL-XT-Maq" secondAttribute="centerX" id="bWf-XK-Tkc"/>
+                <constraint firstItem="BwI-r8-1LL" firstAttribute="width" secondItem="1lS-Qo-4Km" secondAttribute="width" id="bcv-jA-D6r"/>
+                <constraint firstItem="Fkm-0E-fZ7" firstAttribute="centerY" secondItem="vzL-XT-Maq" secondAttribute="centerY" id="dTs-3w-mV7"/>
+                <constraint firstItem="Fkm-0E-fZ7" firstAttribute="height" secondItem="vzL-XT-Maq" secondAttribute="height" id="iWY-xp-1Ny"/>
+                <constraint firstAttribute="trailing" secondItem="Fkm-0E-fZ7" secondAttribute="trailing" constant="15" id="jZJ-vO-PHc"/>
+                <constraint firstItem="qjj-0w-0Oc" firstAttribute="centerX" secondItem="Fkm-0E-fZ7" secondAttribute="centerX" id="kFj-xk-Blb"/>
+                <constraint firstItem="KII-6Z-w4S" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kay-Dz-ILz"/>
+                <constraint firstItem="7Vg-CV-cH3" firstAttribute="centerX" secondItem="czq-Ql-V9D" secondAttribute="centerX" id="mp4-Jq-aaj"/>
+                <constraint firstItem="vzL-XT-Maq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="nAY-36-A9l"/>
+                <constraint firstItem="vzL-XT-Maq" firstAttribute="top" secondItem="czq-Ql-V9D" secondAttribute="bottom" constant="45" id="ogx-0F-uTf"/>
+                <constraint firstItem="zcq-YL-3b8" firstAttribute="height" secondItem="Bng-os-AYA" secondAttribute="height" id="oja-LD-koK"/>
+                <constraint firstItem="qjj-0w-0Oc" firstAttribute="height" secondItem="Fkm-0E-fZ7" secondAttribute="height" id="p5n-Qk-db6"/>
+                <constraint firstItem="7Vg-CV-cH3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="qFa-Vp-jF4"/>
+                <constraint firstItem="Bng-os-AYA" firstAttribute="width" secondItem="qjj-0w-0Oc" secondAttribute="width" id="xZ0-sY-7lD"/>
+                <constraint firstItem="KII-6Z-w4S" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="xqh-rU-GxE"/>
+                <constraint firstItem="czq-Ql-V9D" firstAttribute="height" secondItem="vzL-XT-Maq" secondAttribute="height" id="z0A-e0-0mv"/>
+            </constraints>
+            <point key="canvasLocation" x="-163.5" y="-8.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="jr" width="780" height="901"/>
+        <image name="前臂" width="218" height="130"/>
+        <image name="大腿" width="218" height="128"/>
+        <image name="小腿" width="218" height="130"/>
+        <image name="肩部" width="218" height="128"/>
+        <image name="肱三头肌" width="218" height="128"/>
+        <image name="肱二头肌" width="218" height="130"/>
+        <image name="背部" width="220" height="128"/>
+        <image name="胸肌" width="220" height="130"/>
+        <image name="腰腹" width="218" height="130"/>
+    </resources>
+</document>
